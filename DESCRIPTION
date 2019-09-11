@@ -15,3 +15,5 @@ ByteCompile: true
 Encoding: UTF-8
 LazyData: true
 Date: 2019-09-17
+URL: https://github.com/annakrystalli/rrcompendiumRSE19
+BugReports: https://github.com/annakrystalli/rrcompendiumRSE19/issues
