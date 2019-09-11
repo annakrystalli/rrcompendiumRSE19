@@ -2,7 +2,7 @@
 FROM rocker/verse:3.6.0
 
 # required
-MAINTAINER Your Anna <annakrystalli@googlemail.com>
+MAINTAINER Anna Krystalli <annakrystalli@googlemail.com>
 
 COPY . /rrcompendiumRSE19
 
@@ -16,4 +16,4 @@ RUN . /etc/environment \
   && R -e "devtools::install('/rrcompendiumRSE19', dep=TRUE)" \
   # render the manuscript into a docx, you'll need to edit this if you've
   # customised the location and name of your main Rmd file
-  && R -e "rmarkdown::render('/rrcompendiumRSE19/analysis/paper/paper.Rmd,analysis/paper/paper.Rmd,analysis/paper/paper.Rmd')"
+  && R -e "rmarkdown::render('/rrcompendiumRSE19/analysis/paper/paper.Rmd')"
