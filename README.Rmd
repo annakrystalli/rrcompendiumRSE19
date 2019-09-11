@@ -17,6 +17,8 @@ Title <- "Partial Reproduction of Boettiger Ecology Letters 2018;21:1255–1267 
 # rrcompendiumRSE19
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/annakrystalli/rrcompendiumRSE19/master?urlpath=rstudio)
+[![Travis-CI Build Status](https://travis-ci.org/annakrystalli/rrcompendiumRSE19.svg?branch=master)](https://travis-ci.org/annakrystalli/rrcompendiumRSE19)
+ 
 
 This repository contains the data and code for our paper:
 
